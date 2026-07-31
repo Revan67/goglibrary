@@ -13,3 +13,6 @@ gogrepo.log
 
 # per-machine GUI state
 gogrepo_gui_settings.json
+
+# planning/reference notes -- not public for now
+docs/
