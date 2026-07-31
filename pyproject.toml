@@ -1,0 +1,22 @@
+[project]
+name = "goglibrary"
+version = "0.1.0"
+description = "A Steam-like desktop client for a GOG.com library"
+requires-python = ">=3.14"
+dependencies = [
+    "requests",
+    "html5lib",
+    "psutil",
+]
+
+[project.optional-dependencies]
+dev = [
+    "pytest",
+]
+
+[build-system]
+requires = ["setuptools"]
+build-backend = "setuptools.build_meta"
+
+[tool.setuptools.packages.find]
+include = ["goglibrary*"]
