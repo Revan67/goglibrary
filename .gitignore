@@ -1,0 +1,15 @@
+__pycache__/
+*.pyc
+.venv/
+*.egg-info/
+.pytest_cache/
+
+# GOG auth token and manifest/library data -- never track this
+gog-token.dat
+gog-manifest.json
+gog-manifest.json.bak
+gog-manifest.dat
+gogrepo.log
+
+# per-machine GUI state
+gogrepo_gui_settings.json
